@@ -14,3 +14,10 @@
 ```
 pip install -Uqq transformers librosa datasets whisper_normalizer jiwer evaluate accelerate
 ```
+
+> Note: Install git-lfs and get the huggingface token
+
+```
+apt-get install git-lfs
+huggingface-cli token
+```
