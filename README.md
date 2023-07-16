@@ -10,14 +10,15 @@
 - accelerate
 - whisper_normalizer
 - evaluate
+- gradio
 
 ```
-pip install -Uqq transformers librosa datasets whisper_normalizer jiwer evaluate accelerate
+pip install -Uqq transformers librosa datasets whisper_normalizer jiwer evaluate accelerate gradio
 ```
 
 > Note: Install git-lfs and get the huggingface token
 
 ```
 apt-get install git-lfs
-huggingface-cli token
+huggingface-cli login
 ```
